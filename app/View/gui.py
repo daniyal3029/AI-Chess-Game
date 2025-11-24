@@ -77,9 +77,9 @@ class InteractiveGui:
         lbl_sub = tk.Label(frame, text="Select Difficulty", font=("Helvetica", 16), bg=COLOR_BG, fg="#AAAAAA")
         lbl_sub.pack(pady=(0, 20))
 
-        self.create_menu_btn(frame, "Easy (Random)", lambda: self.start_game(1))
-        self.create_menu_btn(frame, "Medium (Minimax)", lambda: self.start_game(2))
-        self.create_menu_btn(frame, "Hard (Neural Net)", lambda: self.start_game(3))
+        self.create_menu_btn(frame, "Easy", lambda: self.start_game(1))
+        self.create_menu_btn(frame, "Medium", lambda: self.start_game(2))
+        self.create_menu_btn(frame, "Hard", lambda: self.start_game(3))
         
         tk.Label(frame, bg=COLOR_BG).pack(pady=10) # Spacer
         self.create_menu_btn(frame, "View History", self.show_history)
