@@ -67,3 +67,6 @@ To get started with the project, follow these steps:
 1. Clone the repository: `git clone https://github.com/daniyal3029/AI-Chess-Game.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the application: `python app/Controller/main.py`
+
+## Contributing
+If you'd like to contribute to the project, please fork the repository, make your changes, and submit a pull request. We appreciate any contributions, whether it's a bug fix, a new feature, or documentation improvements.
