@@ -70,3 +70,6 @@ To get started with the project, follow these steps:
 
 ## Contributing
 If you'd like to contribute to the project, please fork the repository, make your changes, and submit a pull request. We appreciate any contributions, whether it's a bug fix, a new feature, or documentation improvements.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
